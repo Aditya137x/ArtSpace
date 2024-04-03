@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Art Space</string>
+    <string name="sunday">A Sunday Illustration</string>
+    <string name="day">A Day in my Life</string>
 </resources>
