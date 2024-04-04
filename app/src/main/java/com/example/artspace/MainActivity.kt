@@ -124,8 +124,8 @@ fun ArtImage() {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        if (result==1) {
-            Row(
+        when (result) {
+           1 -> Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 15.dp),
@@ -137,9 +137,9 @@ fun ArtImage() {
 
                 }
             }
-        }
-        else if (result==6) {
-            Row(
+
+
+            6 -> Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 15.dp),
@@ -151,9 +151,9 @@ fun ArtImage() {
 
                 }
             }
-        }
-        else {
-            Row(
+
+
+            else -> Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 15.dp),
